@@ -1,0 +1,26 @@
+html,
+body {
+    background: #F2F2F2;
+}
+
+.product_info-ml {
+    margin-left: 105px;
+}
+
+.product_info-border {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.dropBtn-pos {
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+}
+
+.productImg{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/0.jpg);
+    background-position: center;
+    background-size: cover;
+}

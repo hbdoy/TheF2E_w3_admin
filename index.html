@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>admin order</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Shoptime</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="ml-5 collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#">ORDERS</a>
+                </li>
+                <li class="nav-item active" style="border-bottom: 3px solid white">
+                    <a class="nav-link" href="#">PROODUCT</a>
+                </li>
+            </ul>
+            <div class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">ADMIN</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-12 d-flex mt-4 mb-3">
+            <div class="dropdown mr-auto">
+                <button class="btn dropdown-toggle text-dark" type="button" style="background-color: #F2F2F2">
+                    <input type="checkbox">
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="btn text-white dropdown-toggle bg-dark" type="button">
+                    ADD NEW PRODUCT
+                </button>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead class="bg-white">
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Original</th>
+                    <th scope="col">Discount</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Color</th>
+                    <th scope="col">Inventory</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="d-flex justify-content-start">
+                        <input type="checkbox" class="align-self-center mr-2">
+                        <div class="productImg mr-2"></div>
+                        <div class="align-self-center">Mauris non tem.</div>
+                    </td>
+                    <td>
+                        <span>$3,200</span>
+                    </td>
+                    <td>
+                        <span>$2,800</span>
+                    </td>
+                    <td colspan="3">
+                        <div class="d-flex justify-content-start product_info-border py-1">
+                            <div style="width: 15px;">L</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start product_info-border py-1">
+                            <div style="width: 15px;">M</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start py-1">
+                            <div style="width: 15px;">S</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="position: relative;min-width: 125px">
+                        <div class="dropdown dropBtn-pos">
+                            <button class="btn text-white dropdown-toggle" type="button" style="background-color: #7ED321">
+                                PUBLISHED
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="d-flex justify-content-start">
+                        <input type="checkbox" class="align-self-center mr-2">
+                        <div class="productImg mr-2"></div>
+                        <div class="align-self-center">Curabitur lobo.</div>
+                    </td>
+                    <td>
+                        <span>$3,200</span>
+                    </td>
+                    <td>
+                        <span>$2,800</span>
+                    </td>
+                    <td colspan="3">
+                        <div class="d-flex justify-content-start product_info-border py-1">
+                            <div style="width: 15px;">L</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start product_info-border py-1">
+                            <div style="width: 15px;">M</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start py-1">
+                            <div style="width: 15px;">S</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="position: relative;min-width: 125px">
+                        <div class="dropdown dropBtn-pos">
+                            <button class="btn text-white dropdown-toggle" type="button" style="background-color: #7ED321">
+                                PUBLISHED
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="d-flex justify-content-start">
+                        <input type="checkbox" class="align-self-center mr-2 bg-white">
+                        <div class="productImg mr-2"></div>
+                        <div class="align-self-center">Curabitur lobo.</div>
+                    </td>
+                    <td>
+                        <span>$3,200</span>
+                    </td>
+                    <td>
+                        <span>$2,800</span>
+                    </td>
+                    <td colspan="3">
+                        <div class="d-flex justify-content-start product_info-border py-1">
+                            <div style="width: 15px;">L</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start product_info-border py-1">
+                            <div style="width: 15px;">M</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start py-1">
+                            <div style="width: 15px;">S</div>
+                            <div class="product_info-ml">
+                                <div>Gray</div>
+                                <div>Black</div>
+                            </div>
+                            <div class="product_info-ml">
+                                <div>15</div>
+                                <div>20</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="position: relative;min-width: 125px">
+                        <div class="dropdown dropBtn-pos">
+                            <button class="btn text-white dropdown-toggle" type="button" style="background-color: #9B9B9B">
+                                UNPUBLISHED
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
